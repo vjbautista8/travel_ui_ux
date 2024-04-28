@@ -31,7 +31,7 @@ const Navbar = () => {
         <Button
           type='button'
           title='Login'
-          icon='/user.svg'
+          icon='/travel_ui_ux/user.svg'
           variant='btn_dark_green'
         />
       </div>
