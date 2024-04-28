@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = (process.env.NODE_ENV = 'production');
 const nextConfig = {
-  basePath: '/travel_ui_ux',
+  basePath: isProd ? '/travel_ui_ux' : '',
   reactStrictMode: true,
 };
 
