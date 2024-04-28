@@ -27,7 +27,7 @@ const Hero = () => {
               .fill(1)
               .map((_, index) => (
                 <Image
-                  src='/star.svg'
+                  src='/travel_ui_ux/star.svg'
                   key={index}
                   alt='star'
                   width={24}
@@ -49,7 +49,7 @@ const Hero = () => {
           <Button
             type='button'
             title='How we work?'
-            icon='/play.svg'
+            icon='/travel_ui_ux/play.svg'
             variant='btn_white_text'
           />
         </div>
@@ -60,7 +60,12 @@ const Hero = () => {
           <div className='flex flex-col'>
             <div className='flexBetween'>
               <p className='regular-16 text-gray-20'>Location</p>
-              <Image src='/close.svg' alt='close' width={24} height={24} />
+              <Image
+                src='/travel_ui_ux/close.svg'
+                alt='close'
+                width={24}
+                height={24}
+              />
             </div>
             <p className='bold-20 text-white'>Aguas Calientes</p>
           </div>

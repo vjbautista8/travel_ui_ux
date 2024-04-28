@@ -30,7 +30,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -63,7 +63,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Footer**: Comprehensive footer section containing site and social media links for easy navigation and connectivity.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -217,22 +217,22 @@ body {
 }
 
 @layer utilities {
-  .btn_white { 
+  .btn_white {
     @apply  border-white bg-white px-8 py-3 text-green-50
   }
-  .btn_white_text  { 
+  .btn_white_text  {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
-  .btn_green  { 
+  .btn_green  {
     @apply  border-green-50 bg-green-50 px-8 py-5 text-white
   }
-  .btn_dark_green { 
+  .btn_dark_green {
     @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
   }
-  .btn_dark_green_outline  { 
+  .btn_dark_green_outline  {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
   }
-  
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
@@ -397,11 +397,11 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'bg-img-1': "url('/travel_ui_ux/img-1.png')",
+        'bg-img-2': "url('/travel_ui_ux/img-2.png')",
+        'feature-bg': "url('/travel_ui_ux/feature-bg.png')",
+        pattern: "url('/travel_ui_ux/pattern.png')",
+        'pattern-2': "url('/travel_ui_ux/pattern-bg.png')",
       },
       screens: {
         xs: '400px',
