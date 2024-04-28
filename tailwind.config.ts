@@ -30,11 +30,11 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'bg-img-1': "url('/travel_ui_ux/img-1.png')",
+        'bg-img-2': "url('/travel_ui_ux/img-2.png')",
+        'feature-bg': "url('/travel_ui_ux/feature-bg.png')",
+        pattern: "url('/travel_ui_ux/pattern.png')",
+        'pattern-2': "url('/travel_ui_ux/pattern-bg.png')",
       },
       screens: {
         xs: '400px',
